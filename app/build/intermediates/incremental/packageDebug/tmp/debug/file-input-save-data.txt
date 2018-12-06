@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Sun Dec 02 17:22:46 CET 2018
+1.base=/home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/build/intermediates/transforms/dexMerger/debug/0
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=arrow.obj
+0.set=ASSET
+0.base=/home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out
+1.path=classes.dex

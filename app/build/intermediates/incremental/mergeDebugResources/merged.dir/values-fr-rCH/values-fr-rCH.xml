@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="PasswordText">Mot de passe</string>
+    <string name="UserNameText">Nom d\'utilisateur</string>
+    <string name="activity1">Activité 1</string>
+    <string name="activity2">Activité 2</string>
+    <string name="activity3">Activité 3</string>
+    <string name="activity4">Activité 4</string>
+    <string name="app_name">Labo3 - 3D Compass template</string>
+    <string name="buttonActivity1">Bouton Activité 1</string>
+    <string name="buttonActivity2">Bouton Activité 2</string>
+    <string name="buttonActivity3">Bouton Activité 3</string>
+    <string name="buttonActivity4">Bouton Activité 4</string>
+    <string name="buttonNfc1">SECURITE MAX</string>
+    <string name="buttonNfc2">SECURITE MOYENNE</string>
+    <string name="buttonNfc3">SECURITE MAX</string>
+</resources>

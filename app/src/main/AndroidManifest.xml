@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ch.heigvd.iict.sym.a3dcompassapp">
-
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,14 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".CompassActivity"
-            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Activity1"></activity>
+        <activity android:name=".NFC"></activity>
+        <activity android:name=".Activity2"></activity>
+        <activity android:name=".Activity3"></activity>
+        <activity android:name=".CompassActivity"></activity>
     </application>
 
 </manifest>

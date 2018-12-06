@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Labo3 - 3D Compass template</string>
+    <string name="buttonActivity1">Activity 1</string>
+    <string name="buttonActivity2">Activity 2</string>
+    <string name="buttonActivity3">Activity 3</string>
+    <string name="buttonActivity4">Activity 4</string>
+    <string name="activity1">Activity 1</string>
+    <string name="activity2">Activity 2</string>
+    <string name="activity3">Activity 3</string>
+    <string name="activity4">Activity 4</string>
+    <string name="PasswordText">Password</string>
+    <string name="UserNameText">Username</string>
+    <string name="buttonNfc1">MAX SECURITY</string>
+    <string name="buttonNfc2">MEDIUM SECURITY</string>
+    <string name="buttonNfc3">MIN SECURITY</string>
 </resources>
