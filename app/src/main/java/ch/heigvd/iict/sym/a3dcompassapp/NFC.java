@@ -81,6 +81,8 @@ public class NFC extends AppCompatActivity implements CommunicationEventListener
     public void handleServerResponse(String response) {
         text.setText(response);
     }
+
+
 }
 
 class NdefReaderTask extends AsyncTask<Tag, Void, String> {
