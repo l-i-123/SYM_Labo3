@@ -48,37 +48,14 @@ public class Activity1 extends AppCompatActivity {
                     errorText.setText("NFC is disabled.");
                 }else{
                     errorText.setText("");
+                    Intent intent = new Intent(Activity1.this, NFC.class);
+                    startActivity(intent);
                 }
-                Intent intent = new Intent(Activity1.this, NFC.class);
-                startActivity(intent);
+
             }
         });
 
     }
 
-    @Override
-    public void onResume(){
-        super.onResume();
-
-        if(mNfcAdapter == null)
-            return;
-        final Intent intent = new Intent(this.getApplicationContext(),
-                this.getClass());
-        intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-        final PendingIntent pendingIntent =
-                PendingIntent.getActivity(this.getApplicationContext(), 0, intent, 0);
-        IntentFilter[] filters = new IntentFilter[1];
-        String[][] techList = new String[][]{};
-        // Notice that this is the same filter as in our manifest.
-        filters[0] = new IntentFilter();
-        filters[0].addAction(NfcAdapter.ACTION_NDEF_DISCOVERED);
-        filters[0].addCategory(Intent.CATEGORY_DEFAULT);
-        try {
-            filters[0].addDataType("text/plain");
-        } catch (IntentFilter.MalformedMimeTypeException e) {
-            Log.e("TAG", "MalformedMimeTypeException", e);
-        }
-        mNfcAdapter.enableForegroundDispatch(this, pendingIntent, filters, techList);
-    }
 
 }
