@@ -16,4 +16,6 @@ public class NFC extends AppCompatActivity {
         setContentView(R.layout.nfc);
 
     }
+
+
 }
