@@ -4,6 +4,23 @@
             "outputFile": "/home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml",
             "map": [
                 {
+                    "source": "/home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/res/values-eu/values-eu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,119,168,316",
+                        "endColumns": "63,48,147,111",
+                        "endOffsets": "114,163,311,423"
+                    },
+                    "to": {
+                        "startLines": "31,32,33,34",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "3039,3103,3152,3300",
+                        "endColumns": "63,48,147,111",
+                        "endOffsets": "3098,3147,3295,3407"
+                    }
+                },
+                {
                     "source": "/home/elie/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/6dc3d780371e08f4694464d9c15188c9/res/values-eu/values-eu.xml",
                     "from": {
                         "startLines": "2",

@@ -1,12 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:2:1-29:12
+ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:2:1-37:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/aa773ee7265041bee1d83ac83c14bc50/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/04e5849539d74e04b184a6ed40dff323/AndroidManifest.xml:17:1-22:12
+MERGED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:2:1-58:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/a9549fa2a5a17c6be60e0b062f3f06e6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:17:1-55:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/74404d711f3cd3c5137e32b942f68b88/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/71d0d898fd06eb1a541d77da983cc53f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/04e5849539d74e04b184a6ed40dff323/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/1133d52326e90ea8bc336f48e28241fd/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/54037811c1beb1af12060b31f608814b/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/2c5cf3af4901ce31a2d74863b14aedf9/AndroidManifest.xml:17:1-22:12
@@ -26,24 +30,24 @@ MERGED from [com.android.support:documentfile:28.0.0] /home/elie/.gradle/caches/
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/a2e807be4c75a511f3c2a781b631f1e0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:print:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/ecbaafe70c52aa3c50213b11dac1cdee/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/elie/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/36e3f1e1985942dfc778dcf53c2cbd4b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/253ded6909acde9c53cc18b606f2b8ff/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/elie/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/25a36d1370dfe6838caa7c2a2c2a2fa4/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/elie/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/d27d85c379d5b2f826a9138a252e0eda/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /home/elie/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/bebc3957a547bb1da9b9abbdcdbf6a55/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/253ded6909acde9c53cc18b606f2b8ff/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:2:1-37:12
 	package
 		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:3:5-47
 		INJECTED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml
 		INJECTED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml
-		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:2:1-29:12
+		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:2:1-37:12
 		INJECTED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml
-		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:2:1-29:12
+		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:2:1-37:12
 		INJECTED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:2:11-69
@@ -51,14 +55,64 @@ uses-permission#android.permission.NFC
 ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:4:5-62
 	android:name
 		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:4:22-59
-uses-feature#android.hardware.nfc
-ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:5:5-7:35
-	android:required
-		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:7:9-32
+uses-permission#android.permission.CAMERA
+ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:5:5-64
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:21:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:21:5-65
 	android:name
-		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:6:9-44
+		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:5:22-62
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:6:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:7:22-73
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:8:5-68
+MERGED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:11:5-13:36
+MERGED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:8:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:9:5-74
+MERGED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:14:5-16:36
+MERGED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:9:22-71
+uses-permission#android.permission.INTERNET
+ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:10:22-64
+uses-feature#android.hardware.camera
+ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:11:5-59
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:24:5-26:36
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:24:5-26:36
+	android:name
+		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:11:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:12:5-69
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:32:5-34:36
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:32:5-34:36
+	android:name
+		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:12:19-67
+uses-feature#android.hardware.nfc
+ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:13:5-15:35
+	android:required
+		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:15:9-32
+	android:name
+		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:14:9-44
 application
-ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:8:5-27:19
+ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:16:5-35:19
+MERGED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:20:5-56:19
+MERGED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:20:5-56:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:45:5-53:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:45:5-53:19
 MERGED from [com.android.support:support-compat:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/6dc3d780371e08f4694464d9c15188c9/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/6dc3d780371e08f4694464d9c15188c9/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/ba2d83ce6721d05ae4da01007ae9c2f8/AndroidManifest.xml:22:5-23:19
@@ -66,61 +120,69 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /home/elie/.gradle/
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/6dc3d780371e08f4694464d9c15188c9/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:20:9-35
 	android:label
-		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:19:9-41
 	android:icon
-		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:18:9-43
 	android:allowBackup
-		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:17:9-35
 	android:theme
-		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:13:9-40
+		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:21:9-40
 activity#ch.heigvd.iict.sym.a3dcompassapp.MainActivity
-ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:14:9-21:20
+ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:22:9-29:20
 	android:screenOrientation
-		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:16:13-49
+		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:24:13-49
 	android:name
-		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:15:13-41
+		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:23:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:17:13-20:29
+ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:25:13-28:29
 action#android.intent.action.MAIN
-ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:18:17-69
+ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:18:25-66
+		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:19:17-77
+ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:19:27-74
+		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:27:27-74
 activity#ch.heigvd.iict.sym.a3dcompassapp.Activity1
-ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:22:9-56
+ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:30:9-56
 	android:name
-		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:22:19-44
+		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:30:19-44
 activity#ch.heigvd.iict.sym.a3dcompassapp.NFC
-ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:23:9-50
+ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:31:9-50
 	android:name
-		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:23:19-38
+		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:31:19-38
 activity#ch.heigvd.iict.sym.a3dcompassapp.Activity2
-ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:24:9-56
+ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:32:9-56
 	android:name
-		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:24:19-44
+		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:32:19-44
 activity#ch.heigvd.iict.sym.a3dcompassapp.Activity3
-ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:25:9-56
+ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:33:9-56
 	android:name
-		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:25:19-44
+		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:33:19-44
 activity#ch.heigvd.iict.sym.a3dcompassapp.CompassActivity
-ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:26:9-62
+ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:34:9-62
 	android:name
-		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:26:19-50
+		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml:34:19-50
 uses-sdk
 INJECTED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml
 INJECTED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/aa773ee7265041bee1d83ac83c14bc50/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/aa773ee7265041bee1d83ac83c14bc50/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/04e5849539d74e04b184a6ed40dff323/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/04e5849539d74e04b184a6ed40dff323/AndroidManifest.xml:20:5-44
+MERGED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:7:5-9:41
+MERGED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/a9549fa2a5a17c6be60e0b062f3f06e6/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/a9549fa2a5a17c6be60e0b062f3f06e6/AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:19:5-43
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:19:5-43
+MERGED from [com.android.support:support-v4:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/74404d711f3cd3c5137e32b942f68b88/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/74404d711f3cd3c5137e32b942f68b88/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/71d0d898fd06eb1a541d77da983cc53f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/71d0d898fd06eb1a541d77da983cc53f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/04e5849539d74e04b184a6ed40dff323/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/04e5849539d74e04b184a6ed40dff323/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/1133d52326e90ea8bc336f48e28241fd/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/1133d52326e90ea8bc336f48e28241fd/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/54037811c1beb1af12060b31f608814b/AndroidManifest.xml:20:5-44
@@ -159,14 +221,14 @@ MERGED from [com.android.support:print:28.0.0] /home/elie/.gradle/caches/transfo
 MERGED from [com.android.support:print:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/ecbaafe70c52aa3c50213b11dac1cdee/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/elie/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/36e3f1e1985942dfc778dcf53c2cbd4b/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/elie/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/36e3f1e1985942dfc778dcf53c2cbd4b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/253ded6909acde9c53cc18b606f2b8ff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/253ded6909acde9c53cc18b606f2b8ff/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/elie/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/25a36d1370dfe6838caa7c2a2c2a2fa4/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/elie/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/25a36d1370dfe6838caa7c2a2c2a2fa4/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/elie/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/d27d85c379d5b2f826a9138a252e0eda/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/elie/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/d27d85c379d5b2f826a9138a252e0eda/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] /home/elie/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/bebc3957a547bb1da9b9abbdcdbf6a55/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] /home/elie/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/bebc3957a547bb1da9b9abbdcdbf6a55/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/253ded6909acde9c53cc18b606f2b8ff/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/elie/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/253ded6909acde9c53cc18b606f2b8ff/AndroidManifest.xml:20:5-44
 INJECTED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml
 INJECTED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -177,3 +239,117 @@ INJECTED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidMan
 		INJECTED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml
 		ADDED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml
 		INJECTED from /home/elie/Documents/HEIG-VD/SYM/SYM_Labo3/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:17:22-78
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:18:22-78
+receiver#org.altbeacon.beacon.startup.StartupBroadcastReceiver
+ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:21:9-27:20
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:21:19-87
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED+action:name:android.intent.action.BOOT_COMPLETED
+ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:22:13-26:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:23:17-79
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:23:25-76
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:24:17-87
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:24:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:25:17-90
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:25:25-87
+service#org.altbeacon.beacon.service.BeaconService
+ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:29:9-34:38
+	android:enabled
+		ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:31:13-35
+	android:label
+		ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:34:13-35
+	android:exported
+		ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:32:13-37
+	android:isolatedProcess
+		ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:33:13-44
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:30:13-70
+service#org.altbeacon.beacon.BeaconIntentProcessor
+ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:36:13-70
+service#org.altbeacon.beacon.service.ScanJob
+ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:39:9-48:19
+	android:permission
+		ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:41:13-69
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:40:13-64
+meta-data#immediateScanJobId
+ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:42:13-44:45
+	android:value
+		ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:44:17-42
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:43:17-50
+meta-data#periodicScanJobId
+ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:45:13-47:45
+	android:value
+		ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:47:17-42
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:46:17-49
+service#org.altbeacon.bluetooth.BluetoothTestJob
+ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:49:9-55:19
+	android:permission
+		ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:51:13-69
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:50:13-68
+meta-data#jobId
+ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:52:13-54:46
+	android:value
+		ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:54:17-43
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.15.4] /home/elie/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.4.aar/3117d2cc9a574ccd186d8e39a613e625/AndroidManifest.xml:53:17-37
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:27:5-29:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:29:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:28:9-53
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:35:5-37:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:37:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:36:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:38:5-40:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:40:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:39:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:41:5-43:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:43:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:42:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:46:9-52:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:49:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:48:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:50:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:52:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:51:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /home/elie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/b42e5fcd9d9de8a67248f878f38134a9/AndroidManifest.xml:47:13-74
