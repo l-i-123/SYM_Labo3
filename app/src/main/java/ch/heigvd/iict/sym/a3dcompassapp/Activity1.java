@@ -15,19 +15,26 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class Activity1 extends AppCompatActivity {
 
     private NfcAdapter mNfcAdapter;
+    EditText nom;
+    EditText password;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity1);
 
+        password = findViewById(R.id.editPasswordText);
+        nom = findViewById(R.id.editUserNameText);
+
         final TextView errorText = findViewById(R.id.ErrorText);
+
 
         mNfcAdapter = NfcAdapter.getDefaultAdapter(this);
 
@@ -48,8 +55,18 @@ public class Activity1 extends AppCompatActivity {
                     errorText.setText("NFC is disabled.");
                 }else{
                     errorText.setText("");
-                    Intent intent = new Intent(Activity1.this, NFC.class);
-                    startActivity(intent);
+                }
+
+                String nom1 = String.valueOf(nom.getText());
+                String nom2 = String.valueOf(password.getText());
+                if((String.valueOf(nom.getText()).equals("admin")) && (String.valueOf(password.getText()).equals("1"))){
+                    if(errorText.getText() == "") {
+                        Intent intent = new Intent(Activity1.this, NFC.class);
+                        startActivity(intent);
+                    }
+                }
+                else{
+                    errorText.setText("Wrong Username or Password");
                 }
 
             }
