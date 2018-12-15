@@ -64,7 +64,7 @@ public class Activity2 extends AppCompatActivity implements BeaconConsumer{
     @Override
     public void onBeaconServiceConnect() {
         newRangedRegions = new ArrayList<>(beaconManager.getRangedRegions());
-        newRangedRegions.
+        //newRangedRegions.
     }
 
 
