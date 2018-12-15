@@ -10,6 +10,8 @@ import android.content.ServiceConnection;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 import org.altbeacon.beacon.Beacon;
 import org.altbeacon.beacon.BeaconConsumer;
@@ -29,25 +31,22 @@ public class Activity2 extends AppCompatActivity implements BeaconConsumer{
 
 
     protected static final String TAG = "RangingActivity";
-    BeaconManager beaconManager = BeaconManager.getInstanceForApplication(this);
+    BeaconManager beaconManager;
+    ListView listView = null;
 
-    ArrayList<Region> newRangedRegions;
+    final ArrayList<String> beacon_list = new ArrayList<String>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity2);
 
-        BeaconManager beaconManager = org.altbeacon.beacon.BeaconManager.getInstanceForApplication(this);
+        listView = findViewById(R.id.listView);
+        beaconManager = BeaconManager.getInstanceForApplication(this);
 
         // Add parser for iBeacons;
         beaconManager.getBeaconParsers().add(new BeaconParser().
                 setBeaconLayout("m:2-3=0215,i:4-19,i:20-21,i:22-23,p:24-24"));
-
-        Log.d(TAG, "setting up background monitoring for beacons and power saving");
-        // wake up the app when a beacon is seen
-        Region region = new Region("backgroundRegion",
-                null, null, null);
 
         beaconManager.bind(this);
 
@@ -63,10 +62,24 @@ public class Activity2 extends AppCompatActivity implements BeaconConsumer{
 
     @Override
     public void onBeaconServiceConnect() {
-        newRangedRegions = new ArrayList<>(beaconManager.getRangedRegions());
-        //newRangedRegions.
+        beaconManager.addRangeNotifier(new RangeNotifier() {
+            @Override
+            public void didRangeBeaconsInRegion(Collection<Beacon> beacons, Region region) {
+                beacon_list.clear();
+                for(Beacon beacon : beacons){
+                    beacon_list.add("rssi : " + beacon.getRssi() + ", majeur : "  + beacon.getId2()
+                    + ", minor : " + beacon.getId3());
+                }
+                MajList();
+            }
+        });
     }
 
+    public void MajList(){
+        final ArrayAdapter adapter = new ArrayAdapter(this,
+                android.R.layout.simple_list_item_1, beacon_list);
+        listView.setAdapter(adapter);
 
+    }
 
 }
