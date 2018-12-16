@@ -13,4 +13,5 @@
     <string name="buttonNfc1">MAX SECURITY</string>
     <string name="buttonNfc2">MEDIUM SECURITY</string>
     <string name="buttonNfc3">MIN SECURITY</string>
+    <string name="buttonCodeBarre">Start capture</string>
 </resources>

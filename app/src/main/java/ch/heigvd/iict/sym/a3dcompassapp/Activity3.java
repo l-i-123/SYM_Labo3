@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -39,6 +40,7 @@ public class Activity3 extends AppCompatActivity{
 
 
         this.send = findViewById(R.id.Send);
+        this.log = findViewById(R.id.Log);
 
 
         this.send.setOnClickListener(new View.OnClickListener() {
@@ -63,6 +65,7 @@ public class Activity3 extends AppCompatActivity{
                 try {
                     //Get data
                     log.setText(result.getContents());
+
 
                 } catch (Exception e) {
                     e.printStackTrace();

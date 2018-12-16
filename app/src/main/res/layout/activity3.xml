@@ -10,11 +10,10 @@
         android:id="@+id/Send"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="@string/buttonCodeBarre" />
 
     <TextView
         android:id="@+id/Log"
         android:layout_width="match_parent"
-        android:layout_height="354dp"
-        android:text="TextView" />
+        android:layout_height="354dp" />
 </LinearLayout>
