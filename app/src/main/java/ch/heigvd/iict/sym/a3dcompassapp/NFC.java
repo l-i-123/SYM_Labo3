@@ -1,5 +1,6 @@
 package ch.heigvd.iict.sym.a3dcompassapp;
 
+import android.app.Activity;
 import android.app.PendingIntent;
 import android.content.Intent;
 import android.content.IntentFilter;
@@ -23,31 +24,104 @@ public class NFC extends AppCompatActivity implements CommunicationEventListener
 
     private NfcAdapter mNfcAdapter = null;
     TextView text = null;
+    static final int MAX_SECU_TIME = 40;
+    static final int MEDIUM_SECU_TIME = 20;
+    static final int MIN_SECU_TIME = 10;
+
+    int timer = MEDIUM_SECU_TIME;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.nfc);
 
-        text = findViewById(R.id.textView3);
+        text = findViewById(R.id.securityLevel);
 
+        mNfcAdapter = NfcAdapter.getDefaultAdapter(this);
+
+        if(mNfcAdapter == null)
+            return;
+
+        handleIntent(getIntent());
+
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                //Contrôle periodique de la disponibilité du réseau jusqu'à se qu'il revienne
+                while(true){
+                    try {
+                        //Affichage du nombre de message en attente
+                        if(timer > MEDIUM_SECU_TIME){
+                            text.setText("MAX SECURITY");
+                        }
+                        else if(timer > MIN_SECU_TIME){
+                            text.setText("MEDIUM SECURITY");
+                        }
+                        else{
+                            text.setText("MIN SECURITY");
+                        }
+                        timer--;
+                        Thread.sleep(1000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+
+            }
+        }).start();
+    }
+
+    private void handleIntent(Intent intent) {
+
+        String action = intent.getAction();
+        if (NfcAdapter.ACTION_NDEF_DISCOVERED.equals(action)) {
+
+            String type = intent.getType();
+            if (type.equals("text/plain")) {
+
+                Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
+                new NdefReaderTask(this).execute(tag);
+
+            } else {
+                Log.d(TAG, "Wrong mime type: " + type);
+            }
+        } else if (NfcAdapter.ACTION_TECH_DISCOVERED.equals(action)) {
+
+            // In case we would still use the Tech Discovered Intent
+            Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
+            String[] techList = tag.getTechList();
+            String searchedTech = Ndef.class.getName();
+
+            for (String tech : techList) {
+                if (searchedTech.equals(tech)) {
+                    new NdefReaderTask(this).execute(tag);
+                    break;
+                }
+            }
+        }
+
+        Log.e("debugInfo", "Handle Intent");
     }
 
     @Override
     public void onResume(){
         super.onResume();
 
-        mNfcAdapter = NfcAdapter.getDefaultAdapter(this);
+        setupForegroundDispatch(this, mNfcAdapter);
 
-        if(mNfcAdapter == null)
-            return;
-        final Intent intent = new Intent(this.getApplicationContext(),
-                this.getClass());
+    }
+
+    public static void setupForegroundDispatch(final Activity activity, NfcAdapter adapter) {
+        final Intent intent = new Intent(activity.getApplicationContext(),
+                activity.getClass());
         intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+
         final PendingIntent pendingIntent =
-                PendingIntent.getActivity(this.getApplicationContext(), 0, intent, 0);
+                PendingIntent.getActivity(activity.getApplicationContext(), 0, intent, 0);
+
         IntentFilter[] filters = new IntentFilter[1];
         String[][] techList = new String[][]{};
+
         // Notice that this is the same filter as in our manifest.
         filters[0] = new IntentFilter();
         filters[0].addAction(NfcAdapter.ACTION_NDEF_DISCOVERED);
@@ -57,28 +131,35 @@ public class NFC extends AppCompatActivity implements CommunicationEventListener
         } catch (IntentFilter.MalformedMimeTypeException e) {
             Log.e("TAG", "MalformedMimeTypeException", e);
         }
-        mNfcAdapter.enableForegroundDispatch(this, pendingIntent, filters, techList);
+
+        adapter.enableForegroundDispatch(activity, pendingIntent, filters, techList);
     }
+
+    public static void stopForegroundDispatch(final Activity activity, NfcAdapter adapter) {
+        adapter.disableForegroundDispatch(activity);
+    }
+
 
     @Override
     protected void onPause(){
+
+        stopForegroundDispatch(this, mNfcAdapter);
+
         super.onPause();
-        if(mNfcAdapter != null)
-            mNfcAdapter.disableForegroundDispatch(this);
+        //if(mNfcAdapter != null)
+            //mNfcAdapter.disableForegroundDispatch(this);
     }
 
     @Override
     protected void onNewIntent(Intent intent) {
-        super.onNewIntent(intent);
-        // getIntent() should always return the most recent
-        Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
-        new NdefReaderTask(NFC.this).execute(tag);
-        setIntent(intent);
+
+        handleIntent(intent);
     }
 
     //Retour de la réponse à afficher sur l'interface graphique
     @Override
     public void handleServerResponse(String response) {
+        timer = MAX_SECU_TIME;
         text.setText(response);
     }
 
@@ -99,7 +180,7 @@ class NdefReaderTask extends AsyncTask<Tag, Void, String> {
 
         Ndef ndef = Ndef.get(tag);
         if (ndef == null) {
-            // NDEF is not supported by this Tag.
+            System.out.println("NDEF is not supported by this Tag.");
             return null;
         }
 
@@ -150,7 +231,7 @@ class NdefReaderTask extends AsyncTask<Tag, Void, String> {
     protected void onPostExecute(String result) {
 
         if (result != null) {
-            //cel.handleServerResponse(result);
+            cel.handleServerResponse(result);
         }
     }
 }

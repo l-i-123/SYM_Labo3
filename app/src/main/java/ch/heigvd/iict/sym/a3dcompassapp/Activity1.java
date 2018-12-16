@@ -51,23 +51,21 @@ public class Activity1 extends AppCompatActivity {
         mConnectButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(!mNfcAdapter.isEnabled()){
-                    errorText.setText("NFC is disabled.");
-                }else{
-                    errorText.setText("");
-                }
+            if(!mNfcAdapter.isEnabled()){
+                errorText.setText("NFC is disabled.");
+            }else{
+                errorText.setText("");
+            }
 
-                String nom1 = String.valueOf(nom.getText());
-                String nom2 = String.valueOf(password.getText());
-                if((String.valueOf(nom.getText()).equals("admin")) && (String.valueOf(password.getText()).equals("1"))){
-                    if(errorText.getText() == "") {
-                        Intent intent = new Intent(Activity1.this, NFC.class);
-                        startActivity(intent);
-                    }
+            if((String.valueOf(nom.getText()).equals("admin")) && (String.valueOf(password.getText()).equals("1"))){
+                if(errorText.getText() == "") {
+                    Intent intent = new Intent(Activity1.this, NFC.class);
+                    startActivity(intent);
                 }
-                else{
-                    errorText.setText("Wrong Username or Password");
-                }
+            }
+            else{
+                errorText.setText("Wrong Username or Password");
+            }
 
             }
         });

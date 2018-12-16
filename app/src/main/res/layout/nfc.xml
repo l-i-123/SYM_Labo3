@@ -6,29 +6,12 @@
     android:orientation="vertical" >
 
 
-    <Button
-        android:id="@+id/buttonNfc1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/buttonNfc1" />
-
-    <Button
-        android:id="@+id/buttonNfc2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/buttonNfc2" />
-
-    <Button
-        android:id="@+id/buttonNfc3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/buttonNfc3" />
-
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/securityLevel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="Min Security"
+        android:textSize="24sp" />
 
 
 </LinearLayout>
