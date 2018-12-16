@@ -21,5 +21,7 @@ Les application NFC et iBeacon sont quasiment similaire mais il n'est pas envisa
 
 ### Question 5.2 
 
+Il est possible d'améliorer la fluidité de l'image à l'écran. Cet effet doit être du au fait que l'on ne reçoit pas assez fréquemment des événements des capteurs pour avertir d'une nouvelle valeur. Cela signifie que entre deux mesures il peut se passer un mouvement plus ou moins conséquents. Cela est du au fait que la fréquence des événements est reglée par défaut avec la configuration : SENSOR_DELAY_NORMAL que nous avons utilisé durant le laboratoire. On pourrait imaginer utiliser : SENSOR_DELAY_FASTEST mais cela risque de ralentir le thread UI principal et donc géner l'expérience utilisateur. On pourrait également essayer de trouver un moyen pour réaliser le calcul de matrice de manière plus performante.
+
 
 
